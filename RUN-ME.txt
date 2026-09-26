@@ -1,0 +1,15 @@
+CINEFRAME STANDALONE WEBSITE
+
+Open a terminal in this folder, the folder containing package.json.
+
+1. npm install
+2. npm run dev
+3. Open the Local URL printed by Vite.
+
+For a clean production check:
+  npm run check
+  npm run build
+  npm run preview
+
+If you see "vite: not found", run npm install in this exact folder.
+If npm cannot find package.json, you are in the wrong folder; do not run from the parent folder or client folder.
