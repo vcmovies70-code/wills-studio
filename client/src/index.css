@@ -502,3 +502,19 @@ button:focus-visible, a:focus-visible { outline: 2px solid #c9764a; outline-offs
   .inner-footer .footer-social { grid-column: 1 / -1; justify-content: flex-start; }
   .inner-footer .footer-legal { grid-column: 1 / -1; text-align: left; }
 }
+.map-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* adjust to taste, e.g. 4/3 for a taller map */
+  overflow: hidden;
+  border-radius: 8px; /* optional, matches your rounded aesthetic */
+}
+
+.map-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

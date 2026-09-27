@@ -102,7 +102,7 @@ export default function Home() {
       <SiteNavigation variant="home" scrolled={scrolled} />
 
       <main>
-        <section className="hero-section" aria-label="Cineframe introduction">
+        <section className="hero-section" aria-label="Wills VIsuals introduction">
           <video className="hero-video" autoPlay muted={isMuted} loop playsInline poster="/assets/hero-still.jpg">
             <source src={HERO_VIDEO} type="video/mp4" />
           </video>
@@ -171,7 +171,7 @@ export default function Home() {
 
         <section className="contact-section" id="contact">
           
-          <div className="contact-content"><p className="eyebrow">Bring us the video</p><h2>Have an event<br /><em>worth filming?</em></h2><p className="contact-copy">Contact us and well make your event memory last forever.</p><a className="button button--copper button--large" href="mailto:hello@cineframe.studio">hello Wills Visuals <Mail size={17} /></a></div>
+          <div className="contact-content"><p className="eyebrow">Bring us the video</p><h2>Have an event<br /><em>worth filming?</em></h2><p className="contact-copy">Contact us and well make your event memory last forever.</p><a className="button button--copper button--large" href="mailto:willsmobilevideography@gmail.com">hello Wills Visuals <Mail size={17} /></a></div>
           <div className="contact-side"><span>Based in Abuja<br />Lagos / Nationwide</span><button className="contact-mark" onClick={() => navigate("top")} aria-label="Back to top"><img src="/assets/cineframe-mark.png" alt="" /></button></div>
         </section>
       </main>
